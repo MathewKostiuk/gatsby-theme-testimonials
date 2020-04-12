@@ -5,15 +5,14 @@ import { graphql, useStaticQuery } from "gatsby";
 import TestimonialCard from "./TestimonialCard";
 
 const Section = styled.section`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-auto-rows: min-content;
-  grid-gap: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 1em;
 
   // Desktop
   @media (min-width: 48em) {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    flex-direction: row;
   }
 `;
 

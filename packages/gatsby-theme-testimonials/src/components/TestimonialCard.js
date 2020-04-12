@@ -10,7 +10,7 @@ library.add(fab)
 
 const Card = styled.div`
   padding: 2em;
-  max-width: 500px;
+  max-width: 300px;
   border-radius: 0.5em;
   height: min-content;
 `;
