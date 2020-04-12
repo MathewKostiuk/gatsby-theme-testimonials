@@ -3,9 +3,9 @@ import { jsx } from "../context";
 import styled from "@emotion/styled";
 import { Quote } from "./Quote";
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
-import { library } from '@fontawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fontawesome/react-fontawesome'
-import { fab } from '@fontawesome/free-brands-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 library.add(fab)
 
 const Card = styled.div`
