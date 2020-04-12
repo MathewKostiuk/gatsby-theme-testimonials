@@ -1,6 +1,6 @@
 {
   "name": "@mathewkostiuk/gatsby-theme-shopify-testimonials",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
