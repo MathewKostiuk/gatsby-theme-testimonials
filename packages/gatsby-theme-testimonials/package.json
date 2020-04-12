@@ -1,6 +1,6 @@
 {
   "name": "@mathewkostiuk/gatsby-theme-shopify-testimonials",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/MathewKostiuk/gatsby-theme-testimonials"
+    "url": "https://github.com/MathewKostiuk/gatsby-theme-testimonials"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
