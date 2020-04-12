@@ -3,6 +3,10 @@ import { jsx } from "../context";
 import styled from "@emotion/styled";
 import { Quote } from "./Quote";
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+library.add(fab)
 
 const Card = styled.div`
   padding: 2em;
@@ -172,6 +176,23 @@ export default ({ testimonial }) => {
                   }}
                 >
                   <FaLinkedin />
+                </Circle>
+              </a>
+            ) : null}
+            {!!shopify ? (
+              <a href={shopify}>
+                <Circle
+                  sx={{
+                    backgroundColor: "background",
+                    color: "text",
+                    boxShadow: "neumorphism",
+                    transition: "box-shadow 0.7s ease-in-out",
+                    ":hover": {
+                      boxShadow: "neumorphismHover"
+                    }
+                  }}
+                >
+                  <FontAwesomeIcon icon={['fab', 'shopify']} />
                 </Circle>
               </a>
             ) : null}
