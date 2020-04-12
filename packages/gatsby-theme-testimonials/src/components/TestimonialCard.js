@@ -99,7 +99,7 @@ const Circle = styled.div`
 `;
 
 export default ({ testimonial }) => {
-  const { name, company, blurb, twitter, linkedIn } = testimonial;
+  const { name, company, blurb, twitter, linkedIn, shopify } = testimonial;
   return (
     <Card
       sx={{
